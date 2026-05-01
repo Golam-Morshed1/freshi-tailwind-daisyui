@@ -120,70 +120,77 @@
     <main>
 
         <!-- Services -->
-        <section class="my-20 md:container mx-auto">
+        <section class="my-20">
 
-            <h3 class="text-4xl font-bold text-freshiGreen mb-10">Services</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div class="container mx-auto px-4 md:px-6 lg:px-10 py-10">
 
-                <!-- card-01 -->
-                <div class="card mx-4 bg-Secoundry shadow-sm p-4 md:p-8">
-                    <div class="flex justify-center">
-                        <div class="w-24 h-24 rounded-full bg-white">
-                            <img src="image/service.png" class="p-4" alt="">
+                <h3 class="text-4xl font-bold text-freshiGreen mb-10">Services</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+
+                    <!-- card-01 -->
+                    <div class="card bg-Secoundry shadow-sm p-4 md:p-8">
+                        <div class="flex justify-center">
+                            <div class="w-24 h-24 rounded-full bg-white">
+                                <img src="image/service.png" class="p-4" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="text-center font-bold">24/7 Services</h2>
+                            <p class="text-center">A card component has a figure, a body part, and inside body there are
+                                title and actions parts
+                            </p>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <h2 class="text-center font-bold">24/7 Services</h2>
-                        <p class="text-center">A card component has a figure, a body part, and inside body there are
-                            title and actions parts
-                        </p>
-                    </div>
-                </div>
-                <!-- card-02 -->
-                <div class="card mx-4 bg-Secoundry shadow-sm p-4 md:p-8">
-                    <div class="flex justify-center">
-                        <div class="w-24 h-24 rounded-full bg-white">
-                            <img src="image/delivery.png" class="p-4" alt="">
+                    <!-- card-02 -->
+                    <div class="card bg-Secoundry shadow-sm p-4 md:p-8">
+                        <div class="flex justify-center">
+                            <div class="w-24 h-24 rounded-full bg-white">
+                                <img src="image/delivery.png" class="p-4" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="text-center font-bold">Fast Delivery</h2>
+                            <p class="text-center">A card component has a figure, a body part, and inside body there are
+                                title and actions parts
+                            </p>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <h2 class="text-center font-bold">Fast Delivery</h2>
-                        <p class="text-center">A card component has a figure, a body part, and inside body there are
-                            title and actions parts
-                        </p>
-                    </div>
-                </div>
-                <!-- card-03 -->
-                <div class="card mx-4 bg-Secoundry shadow-sm p-4 md:p-8">
-                    <div class="flex justify-center">
-                        <div class="w-24 h-24 rounded-full bg-white">
-                            <img src="image/healthy.png" class="p-4" alt="">
+                    <!-- card-03 -->
+                    <div class="card bg-Secoundry shadow-sm p-4 md:p-8">
+                        <div class="flex justify-center">
+                            <div class="w-24 h-24 rounded-full bg-white">
+                                <img src="image/healthy.png" class="p-4" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="text-center font-bold">Healthy Products </h2>
+                            <p class="text-center">A card component has a figure, a body part, and inside body there are
+                                title and actions parts
+                            </p>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <h2 class="text-center font-bold">Healthy Products </h2>
-                        <p class="text-center">A card component has a figure, a body part, and inside body there are
-                            title and actions parts
-                        </p>
-                    </div>
+
                 </div>
 
             </div>
+
+
         </section>
 
         <!-- Products section -->
-        <section class="my-20 bg-Secoundry">    
+        <section class="my-20 bg-Secoundry">
 
-            <div class="container mx-auto p-4 md:p-10 lg:p-32">
+            <div class="container mx-auto px-4 md:px-6 lg:px-10 py-10">
 
                 <h3 class="text-4xl font-bold text-freshiGreen mb-10">Popular Products</h3>
                 <div class="flex flex-col lg:flex-row gap-5">
                     <!-- big card -->
-                    <div>
-                        <div class="card bg-base-100 card-md shadow-sm">
+                    <div class="w-full lg:w-2/5 shrink-0">
+                        <div class="card bg-base-100 card-md shadow-sm h-full">
                             <div class="bg-gradient-to-br from-freshiGreen to-white pt-12 pl-8 rounded-lg">
                                 <h2 class="text-3xl font-bold text-white mb-2">30% off</h2>
-                                <p class="mb-2 lg:mr-8">Discover a world of treats, toys, and essentials handpicked for </p>
+                                <p class="mb-2 lg:mr-8">Discover a world of treats, toys, and essentials handpicked for
+                                </p>
                                 <div class="justify-start card-actions">
                                     <button class="bg-white text-black px-3 py-2 border rounded-lg">Buy Now</button>
                                 </div>
@@ -196,10 +203,11 @@
                     </div>
 
                     <!-- small cards -->
-                    <div class="grid grid-rows-2 grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-6">
+                    <div class="w-full lg:w-3/5 grid grid-cols-2 lg:grid-cols-3 gap-4">
                         <!-- card-i -->
                         <div class="bg-white flex gap-4 items-center p-4 rounded-lg">
-                            <div><img src="image/onion.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover"></div>
+                            <div><img src="image/onion.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover">
+                            </div>
                             <div>
                                 <div class="rating rating-xs flex items-center gap-2">
                                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-yellow-400"
@@ -212,7 +220,8 @@
                         </div>
                         <!-- card-ii -->
                         <div class="bg-white flex gap-4 items-center p-4 rounded-lg">
-                            <div><img src="image/tomato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover"></div>
+                            <div><img src="image/tomato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover">
+                            </div>
                             <div>
                                 <div class="rating rating-xs flex items-center gap-2">
                                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-yellow-400"
@@ -225,7 +234,8 @@
                         </div>
                         <!-- card-iii -->
                         <div class="bg-white flex gap-4 items-center p-4 rounded-lg">
-                            <div><img src="image/potato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover"></div>
+                            <div><img src="image/potato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover">
+                            </div>
                             <div>
                                 <div class="rating rating-xs flex items-center gap-2">
                                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-yellow-400"
@@ -236,9 +246,10 @@
                                 <p class="font-semibold text-sm">$39.99</p>
                             </div>
                         </div>
-                         <!-- card-iv -->
+                        <!-- card-iv -->
                         <div class="bg-white flex gap-4 items-center p-4 rounded-lg">
-                            <div><img src="image/onion.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover"></div>
+                            <div><img src="image/onion.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover">
+                            </div>
                             <div>
                                 <div class="rating rating-xs flex items-center gap-2">
                                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-yellow-400"
@@ -251,7 +262,8 @@
                         </div>
                         <!-- card-v -->
                         <div class="bg-white flex gap-4 items-center p-4 rounded-lg">
-                            <div><img src="image/tomato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover"></div>
+                            <div><img src="image/tomato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover">
+                            </div>
                             <div>
                                 <div class="rating rating-xs flex items-center gap-2">
                                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-yellow-400"
@@ -264,7 +276,8 @@
                         </div>
                         <!-- card-vi -->
                         <div class="bg-white flex gap-4 items-center p-4 rounded-lg">
-                            <div><img src="image/potato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover"></div>
+                            <div><img src="image/potato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover">
+                            </div>
                             <div>
                                 <div class="rating rating-xs flex items-center gap-2">
                                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-yellow-400"
@@ -276,9 +289,10 @@
                             </div>
                         </div>
 
-                         <!-- card-vii -->
+                        <!-- card-vii -->
                         <div class="bg-white flex gap-4 items-center p-4 rounded-lg">
-                            <div><img src="image/onion.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover"></div>
+                            <div><img src="image/onion.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover">
+                            </div>
                             <div>
                                 <div class="rating rating-xs flex items-center gap-2">
                                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-yellow-400"
@@ -291,7 +305,8 @@
                         </div>
                         <!-- card-viii -->
                         <div class="bg-white flex gap-4 items-center p-4 rounded-lg">
-                            <div><img src="image/tomato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover"></div>
+                            <div><img src="image/tomato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover">
+                            </div>
                             <div>
                                 <div class="rating rating-xs flex items-center gap-2">
                                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-yellow-400"
@@ -304,7 +319,8 @@
                         </div>
                         <!-- card-ix -->
                         <div class="bg-white flex gap-4 items-center p-4 rounded-lg">
-                            <div><img src="image/potato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover"></div>
+                            <div><img src="image/potato.png" class="bg-Secoundry rounded-lg  w-16 h-16 object-cover">
+                            </div>
                             <div>
                                 <div class="rating rating-xs flex items-center gap-2">
                                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-yellow-400"
@@ -324,39 +340,318 @@
 
         </section>
 
-        <!-- Services -->
-        <section class="my-20 md:container mx-auto">
+        <!-- Arrival -->
+        <section class="my-20">
 
-            <h3 class="text-4xl font-bold text-freshiGreen mb-10">Arrival & Offers</h3>
-            
-            <div class="flex flex-col md:flex-row justify-between gap-8">
-                <div class="bg-green-700 flex mx-2 md:mx-0 lg:flex-1 p-5 justify-between gap-8 items-center rounded-xl">
-                    <div class="space-y-5">
-                        <img src="image/dawat-logo.png" alt="">
-                        <button class="bg-green-400 px-3 py-2 rounded-lg text-gray-200">Cook Exotic Dishes</button>
-                        <h4 class="text-white text-3xl font-bold">UP to 20% OFF</h4>
+            <div class="container mx-auto px-4 md:px-6 lg:px-10 py-10">
+                <h3 class="text-4xl font-bold text-freshiGreen mb-10">Arrival & Offers</h3>
+
+                <div class="flex flex-col md:flex-row justify-between gap-8">
+                    <div class="bg-green-700 flex lg:flex-1 p-5 justify-between gap-8 items-center rounded-xl">
+                        <div class="space-y-5">
+                            <img src="image/dawat-logo.png" alt="">
+                            <button class="bg-green-400 px-3 py-2 rounded-lg text-gray-200">Cook Exotic Dishes</button>
+                            <h4 class="text-white text-3xl font-bold">UP to 20% OFF</h4>
+                        </div>
+                        <div>
+                            <img src="image/dawat-mock-up.png" alt="">
+                        </div>
                     </div>
-                    <div>
-                        <img src="image/dawat-mock-up.png" alt="">
+
+                    <div class="bg-blue-900 flex md:w-4/12 p-5 justify-between gap-8 items-center rounded-xl">
+                        <div class="space-y-5">
+                            <img src="image/india-gate-logo.png " alt="">
+                            <button class="bg-blue-500 px-3 py-2 rounded-lg text-gray-200">World’s No.1 Rice</button>
+                            <h4 class="text-white text-3xl font-bold">UP to 20% OFF</h4>
+                        </div>
+                        <div>
+                            <img src="image/india-gate-mock-up.png" alt="">
+                        </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="bg-blue-900 flex md:w-4/12 p-5 mx-2 md:mx-0 justify-between gap-8 items-center rounded-xl">
-                    <div class="space-y-5">
-                        <img src="image/india-gate-logo.png " alt="">
-                        <button class="bg-blue-500 px-3 py-2 rounded-lg text-gray-200">World’s No.1 Rice</button>
-                        <h4 class="text-white text-3xl font-bold">UP to 20% OFF</h4>
+        </section>
+
+        <!-- Testimonial -->
+        <section class="my-20">
+
+            <div class="container mx-auto px-4 md:px-6 lg:px-10 py-10">
+
+                <!-- text -->
+                <div class="space-y-3">
+                    <p class="capitalize text-freshiGreen font-bold">What our customers say</p>
+                    <h3 class="text-4xl">Loved by Families Everywhere</h3>
+                    <p>Real reviews from real customers who shop with us every week.</p>
+                </div>
+
+
+                <!-- Rating -->
+                <div class="flex flex-col md:flex-row my-8 items-center self-center">
+
+                    <!-- Rating Number-->
+                    <div class="md:w-2/5 my-10 flex gap-5">
+                        <h3 class="text-5xl text-freshiGreen">4.8</h3>
+                        <div>
+                            <div class="rating rating-xs">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="1 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="2 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="3 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="4 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="5 star" checked="checked" />
+                            </div>
+                            <p>Based on 2,400+ reviews</p>
+                        </div>
                     </div>
+
+
+                    <div class="w-full h-px md:w-px md:h-20 bg-gray-300 mx-6"></div>
+
+                    <!-- Rating var-->
+                    <div class="space-y-2 py-6 w-full md:w-3/5">
+
+                        <!-- Row-1 -->
+                        <div class="flex items-center gap-2">
+                            <span class="w-4 text-sm">5</span>
+                            <div class="flex-1 h-2 bg-gray-200 rounded">
+                                <div class="h-2 bg-green-600 rounded" style="width: 78%"></div>
+                            </div>
+                            <span class="text-sm text-gray-600 w-8 text-right">78%</span>
+                        </div>
+
+                        <!-- Row-2 -->
+                        <div class="flex items-center gap-2">
+                            <span class="w-4 text-sm">4</span>
+                            <div class="flex-1 h-2 bg-gray-300 rounded-full">
+                                <div class="h-2 bg-green-600 rounded w-[50%]"></div>
+                            </div>
+                            <span class="text-sm text-gray-600 w-8 text-right">50%</span>
+                        </div>
+
+                        <!-- Row-3 -->
+                        <div class="flex items-center gap-2">
+                            <span class="w-4 text-sm">3</span>
+                            <div class="flex-1 h-2 bg-gray-200 rounded">
+                                <div class="h-2 bg-green-600 rounded" style="width: 25%"></div>
+                            </div>
+                            <span class="text-sm text-gray-600 w-8 text-right">25%</span>
+                        </div>
+
+                        <!-- Row-4 -->
+                        <div class="flex items-center gap-2">
+                            <span class="w-4 text-sm">2</span>
+                            <div class="flex-1 h-2 bg-gray-200 rounded">
+                                <div class="h-2 bg-green-600 rounded" style="width: 2%"></div>
+                            </div>
+                            <span class="text-sm text-gray-600 w-8 text-right">2%</span>
+                        </div>
+
+                        <!-- Row-5 -->
+                        <div class="flex items-center gap-2">
+                            <span class="w-4 text-sm">1</span>
+                            <div class="flex-1 h-2 bg-gray-200 rounded">
+                                <div class="h-2 bg-green-600 rounded" style="width: 1%"></div>
+                            </div>
+                            <span class="text-sm text-gray-600 w-8 text-right">1%</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+
+                    <!-- Card-01 -->
+                    <div class="space-y-3 rounded-lg p-4 bg-white border shadow-sm hover:border-freshiGreen hover:shadow-md">
+                        <!-- Star -->
+                        <div class="flex justify-between">
+                            <div class="rating rating-xs">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="1 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="2 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="3 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="4 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="5 star" checked="checked" />
+                            </div>
+                            <span class="text-white bg-freshiGreen text-sm py-1 px-3 rounded-full items-center">Top review</span>
+                        </div>
+                        <p class="text-gray-600">"The vegetables arrive so fresh — still damp from the farm. My family noticed the difference immediately. We haven't bought from a supermarket in six months!"</p>
+                        <div class="flex gap-5 items-center">
+                            <div class="bg-cyan-200 w-8 h-8 rounded-full flex justify-center items-center"><p class="text-green-900 text-sm font-bold">SR</p></div>
+                            <div>
+                                <p class="text-sm font-semibold">Sutana R.</p>
+                                <p class="text-sm text-gray-700">Weekly Subscriber</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Card-02 -->
+                    <div class="space-y-3 rounded-lg p-4 bg-white border shadow-sm hover:border-freshiGreen hover:shadow-md">
+                        <!-- Star -->
+                        <div class="flex justify-between">
+                            <div class="rating rating-xs">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="1 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="2 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="3 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="4 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="5 star" checked="checked" />
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"Delivery is always on time and the packaging keeps everything intact. The Dawat rice deal saved me a lot this month!"</p>
+                        <div class="flex gap-5 items-center">
+                            <div class="bg-cyan-200 w-8 h-8 rounded-full flex justify-center items-center"><p class="text-green-900 text-sm font-bold">MH</p></div>
+                            <div>
+                                <p class="text-sm font-semibold">Mahbub H.</p>
+                                <p class="text-sm text-gray-700">2 years customer</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Card-03 -->
+                    <div class="space-y-3 rounded-lg p-4 bg-white border shadow-sm hover:border-freshiGreen hover:shadow-md">
+                        <!-- Star -->
+                        <div class="flex justify-between">
+                            <div class="rating rating-xs">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="1 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="2 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="3 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="4 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="5 star" checked="checked" />
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"Great prices and genuinely healthy products. The app makes it easy to reorder my usual items every week."</p>
+                        <div class="flex gap-5 items-center">
+                            <div class="bg-amber-200 w-8 h-8 rounded-full flex justify-center items-center"><p class="text-amber-900 text-sm font-bold">FJ</p></div>
+                            <div>
+                                <p class="text-sm font-semibold">Fatema J.</p>
+                                <p class="text-sm text-gray-700">Verified buyer</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Card-04 -->
+                    <div class="space-y-3 rounded-lg p-4 bg-white border shadow-sm hover:border-freshiGreen hover:shadow-md">
+                        <!-- Star -->
+                        <div class="flex justify-between">
+                            <div class="rating rating-xs">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="1 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="2 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="3 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="4 star" checked="checked" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    aria-label="5 star" />
+                            </div>                            
+                        </div>
+                        <p class="text-gray-600">"Customer support resolved my issue within minutes. You can tell they actually care about the experience, not just the sale."</p>
+                        <div class="flex gap-5 items-center">
+                            <div class="bg-blue-200 w-8 h-8 rounded-full flex justify-center items-center"><p class="text-blue-900 text-sm font-bold">RK</p></div>
+                            <div>
+                                <p class="text-sm font-semibold">Rahul K.</p>
+                                <p class="text-sm text-gray-700">New customer</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="relative z-10 px-4 -mb-72 md:-mb-56">
+            <div class="container mx-auto px-4 md:px-6 lg:px-10">
+                <div
+                    class="bg-Secoundry flex flex-col lg:flex-row justify-around items-center gap-8 rounded-xl px-10 py-10 shadow-lg">
+
                     <div>
-                        <img src="image/india-gate-mock-up.png" alt="">
+                        <img src="image/vegetable-busket.png" alt="">
                     </div>
+
+                    <div class="space-y-4 w-full max-w-md">
+                        <h3 class="text-3xl md:text-4xl font-bold">Get Grocery News!</h3>
+                        <p>Exclusive training tips, tricks, product deals and more.</p>
+                        <input type="email" placeholder="Enter Your Email"
+                            class="w-full rounded-lg p-3 border border-gray-300 focus:outline-none focus:border-freshiGreen">
+                        <button class="btn bg-freshiGreen text-white hover:bg-white hover:text-freshiGreen">
+                            Subscribe
+                        </button>
+                    </div>
+
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer></footer>
+    <footer class="bg-freshiGreen">
+
+        <div class="container mx-auto px-4 md:px-6 lg:px-10 py-10">
+
+            <div class="flex flex-col md:flex-row justify-between gap-y-8 pt-80 pb-10">
+
+                <div class="max-w-sm">
+                    <img src="image/logo-footer.png" alt="">
+                    <p class="text-gray-300">Discover a world of treats, toys, and essentials handpicked for your furry
+                        friends</p>
+                </div>
+
+                <div>
+                    <ul class="flex flex-col gap-y-6 text-gray-300">
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex items-end">
+                    <div class="text-gray-300">
+                        <p>Follow Us</p>
+                        <div class="flex gap-x-4 mt-2">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </footer>
 
 </body>
 
